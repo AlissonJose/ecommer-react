@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.main-Header {
+    background-image: url("../../assets/bg-001.png");
+    width: 1440px;
+    height: 663px;
+}
+
+.icon {
+    color: #ffff;
+    width: 20px;
+    height: 20px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 39.59px;
+    height: 41px;
+}
+
+.Navbar span {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #ffff;
+}
