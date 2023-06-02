@@ -24,8 +24,15 @@ export default function Header() {
                     <AiOutlineHeart className="icon" />
                     <img src={brasilImg} className="icon" />
                 </div>
-
             </header>
-        </div>
+
+            <div className="mainContents">
+                <div className="text">
+                    <p className="p1">Se junte nessa experiência</p>
+                    <h1>CRIADO PARA AQUELES QUE DESEJAM SER LIVRES</h1>
+                    <p className="p2">Na ponta dos pés, o caminhar e a liberdade é nosso compromisso. Pensamos alto, desafios são constantes, a cada passo uma nova aventura.</p>
+                </div>
+            </div>
+            </div>
     )
 }

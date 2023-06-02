@@ -2,7 +2,7 @@
 
 .main-Header {
     background-image: url("../../assets/bg-001.png");
-    width: 1440px;
+    width: 100vw;
     height: 663px;
 }
 
@@ -10,6 +10,7 @@
     color: #ffff;
     width: 20px;
     height: 20px;
+
 }
 
 header {
@@ -21,12 +22,59 @@ header {
 }
 
 .logo {
+    margin-left: 41px;
     width: 39.59px;
     height: 41px;
+    margin-right: 500px;
 }
 
 .Navbar span {
     font-size: 14px;
     font-family: 'Inter', sans-serif;
     color: #ffff;
+}
+.Navbar {
+    width: 473px;
+    display: flex;
+    justify-content: space-between;
+}
+.Icons{
+    width: 152px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 43px;
+}
+
+.Navbar span:hover{
+    border-bottom: solid 1px #ffffff;
+    font-weight: bold;
+}
+
+.p1{
+
+font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #ffff;
+    margin-bottom:9px;
+    margin-left: 31px;
+}
+.text h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffff;
+    width: 331px;
+    line-height: 35px;
+
+}
+.p2{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffff;
+    margin-top:9px;
+}
+.text{
+    width: 441px;
 }
