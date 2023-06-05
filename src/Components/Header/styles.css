@@ -33,48 +33,75 @@ header {
     font-family: 'Inter', sans-serif;
     color: #ffff;
 }
+
 .Navbar {
     width: 473px;
     display: flex;
     justify-content: space-between;
 }
-.Icons{
+
+.Icons {
     width: 152px;
     display: flex;
     justify-content: space-between;
     margin-right: 43px;
 }
 
-.Navbar span:hover{
+.Navbar span:hover {
     border-bottom: solid 1px #ffffff;
     font-weight: bold;
 }
 
-.p1{
+.p1 {
 
-font-size: 14px;
+    font-size: 14px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     color: #ffff;
-    margin-bottom:9px;
+    margin-bottom: 9px;
     margin-left: 31px;
+    position: fixed;
+    top: 309px;
+    left: 30px
 }
-.text h1{
+
+.text h1 {
     font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 700;
     color: #ffff;
     width: 331px;
     line-height: 35px;
-
+    margin-left: 31px;
+    position: fixed;
+    top: 336px
 }
-.p2{
+
+.p2 {
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 400;
     color: #ffff;
-    margin-top:9px;
+    margin-top: 9px;
+    margin-left: 31px;
+    line-height: 35px;
+    position: fixed;
+    top: 465px;
 }
-.text{
+
+.text {
     width: 441px;
+}
+
+.BuyHere {
+    width: 169px;
+    height: 64px;
+    left: 1150px;
+    top: 379px;
+    border-radius: 5px;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 1000;
+
 }
