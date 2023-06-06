@@ -31,13 +31,11 @@ export default function Header() {
                     <p className="p1">Se junte nessa experiência</p>
                     <h1>CRIADO PARA AQUELES QUE DESEJAM SER LIVRES</h1>
                     <p className="p2">Na ponta dos pés, o caminhar e a liberdade é nosso compromisso. Pensamos alto, desafios são constantes, a cada passo uma nova aventura.</p>
-                
-                <header>
+                </div>
+                <div className="divButton">
                     <button className="BuyHere">Compre aqui</button>
-                    
-                </header>
                 </div>
             </div>
-            </div>
+        </div>
     )
 }
