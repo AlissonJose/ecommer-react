@@ -1,5 +1,7 @@
-import { useState } from 'react'
+
 import Header from './Components/Header/Header'
+import TextSapato from './Components/TextSapato'
+import Cards from './Components/Cards'
 
 
 function App() {
@@ -7,7 +9,9 @@ function App() {
 
   return (
     <>
-      <Header/>
+      <Header />
+      <TextSapato />
+      <Cards />
     </>
   )
 }
