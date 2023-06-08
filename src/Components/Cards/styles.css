@@ -1,8 +1,41 @@
-.bloco1{
+.container {
+    margin-top: 95px;
+    height: 1198px;
+    height: 100%;
+    padding: 0 121px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px 10px;
+    justify-content: center;
+}
+
+.bloco1 {
     position: relative;
     width: 593px;
     height: 345px;
-    left: 121px;
-    top:400px;
-    background-color:#F7F9FB;
+    background-color: #F7F9FB;
+}
+
+.circulo1 {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: black;
+    font-size: 10px;
+    color: #ffff;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.shoes1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 70px;
 }
