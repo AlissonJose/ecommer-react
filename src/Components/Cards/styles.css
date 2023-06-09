@@ -39,3 +39,30 @@
     position: relative;
     bottom: 70px;
 }
+
+.shoes2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 380px;
+}
+
+
+.shoes3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 270px;
+    right: 620px;
+}
+
+.shoes4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -650px;
+    right: 10px;
+}

@@ -14,6 +14,10 @@ export default function TextSapato() {
       <span className="sub-text3">FS 07 Sports Unisexx</span>
       <span className="sub-text4">R$ 359,90</span>
       <span className="sub-text5">por R$ 300,00 reais</span>
+      <span className="sub-text6">AIR JORDAN 12 GYM RED</span>
+      <span className="sub-text7">R$ 899,00 reais</span>
+
+
     </div>
 
   )
