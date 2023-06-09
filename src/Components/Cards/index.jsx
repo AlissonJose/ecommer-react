@@ -27,6 +27,7 @@ export default function Cards() {
             <div className="shoes3"><img src={shoes03} alt="sapato 3" /></div>
             <div className="shoes4"><img src={shoes04} alt="sapato 4" /></div>
            </div>
+           
         </div>
     )
 }
