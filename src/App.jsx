@@ -4,6 +4,7 @@ import Header from './Components/Header/Header'
 import TextSapato from './Components/TextSapato'
 import Cards from './Components/Cards'
 import Section2 from './Components/Section2'
+import TextSection from './TextSection'
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <TextSapato />
       <Cards />
       <Section2 />
+      <TextSection/>
 
     </>
   )

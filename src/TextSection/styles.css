@@ -1,0 +1,81 @@
+.section1{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    bottom: 550px;
+    margin-left: 120px;
+}
+
+.section2{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 300px;
+    position: relative;
+       
+}
+
+.section3{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 300px;
+    position: relative;
+    bottom: -15px;
+    margin-left: -337px;
+
+}
+
+.section4{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 300px;
+    position: relative;
+    bottom: -15px;
+    margin-left: 5px;
+    color: red;
+
+}
+
+.section5{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 300px;
+    position: relative;
+    bottom: -15px;
+    margin-left: 5px;
+}
+
+.section6{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500px;
+    position: relative;
+    bottom: -15px;
+    margin-left: 5px;
+    color: red;
+}
+
+.section7{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    bottom: 80px;
+    margin-left: -250px;
+
+}
+
+.BuyHere2{
+    width: 169px;
+    height: 64px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    top: 120px;
+    position: relative;
+    margin-left: -215px;
+
+}
