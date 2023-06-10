@@ -8,7 +8,7 @@ import Section2 from './Components/Section2'
 
 
 function App() {
-  
+
 
   return (
     <>
@@ -16,7 +16,7 @@ function App() {
       <TextSapato />
       <Cards />
       <Section2 />
-      
+
     </>
   )
 }
