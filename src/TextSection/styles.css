@@ -1,4 +1,6 @@
-.section1{
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+.section1 {
     font-family: 'Inter', sans-serif;
     font-size: 25px;
     font-weight: 700;
@@ -7,15 +9,15 @@
     margin-left: 120px;
 }
 
-.section2{
+.section2 {
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 300px;
     position: relative;
-       
+
 }
 
-.section3{
+.section3 {
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 300px;
@@ -25,7 +27,7 @@
 
 }
 
-.section4{
+.section4 {
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 300px;
@@ -36,7 +38,7 @@
 
 }
 
-.section5{
+.section5 {
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 300px;
@@ -45,7 +47,7 @@
     margin-left: 5px;
 }
 
-.section6{
+.section6 {
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 500px;
@@ -55,7 +57,7 @@
     color: red;
 }
 
-.section7{
+.section7 {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -65,7 +67,40 @@
 
 }
 
-.BuyHere2{
+.section8 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    top: 580px;
+    position: relative;
+    font-size: 14px;
+    text-align: justify;
+    left: 575px;
+
+}
+
+.section9 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 655px;
+    left: 650px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.section10 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 690px;
+    left: 590px;
+    font-size: 16px;
+    text-align: justify;
+
+
+}
+
+.BuyHere2 {
     width: 169px;
     height: 64px;
     border-radius: 5px;
@@ -76,6 +111,6 @@
     color: white;
     top: 120px;
     position: relative;
-    margin-left: -215px;
+    margin-left: -270px;
 
 }
