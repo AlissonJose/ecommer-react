@@ -5,6 +5,7 @@ import TextSapato from './Components/TextSapato'
 import Cards from './Components/Cards'
 import Section2 from './Components/Section2'
 import TextSection from './TextSection'
+import ShoesCard from './Components/ShoesCard'
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Cards />
       <Section2 />
       <TextSection/>
+      <ShoesCard/>
 
     </>
   )
