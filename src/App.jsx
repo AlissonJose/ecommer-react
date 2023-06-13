@@ -6,6 +6,7 @@ import Cards from './Components/Cards'
 import Section2 from './Components/Section2'
 import TextSection from './TextSection'
 import ShoesCard from './Components/ShoesCard'
+import TextSection2 from './Components/TextSection2'
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Section2 />
       <TextSection/>
       <ShoesCard/>
+      <TextSection2></TextSection2>
 
     </>
   )
