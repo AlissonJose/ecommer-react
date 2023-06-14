@@ -2,6 +2,7 @@
 
 import Header from './Components/Header/Header'
 import Cards from './Components/Cards'
+import Section from './Components/Section'
 import Section2 from './Components/Section2'
 import TextSection from './Components/TextSection'
 import ShoesCard from './Components/ShoesCard'
@@ -20,6 +21,7 @@ function App() {
       <TextSection/>
       <ShoesCard/>
       <TextSection2></TextSection2>
+      <Section></Section>
 
     </>
   )
