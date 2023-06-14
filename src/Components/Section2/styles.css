@@ -1,10 +1,73 @@
 .main-section {
-
     background-image: url("../../assets/rectangule 1.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 75vh;
     margin-top: 114px;
+    position: relative;
+}
 
+.main-section .text {
+    position: absolute;
+    top: 62px;
+    left: 11.7%;
+    width: 350px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.main-section .text .title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.main-section .text .offer {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.main-section .text .description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.main-section .text .description span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF0000;
+}
+
+.BuyHere2 {
+    width: 169px;
+    height: 64px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    margin-top: 48px;
 }

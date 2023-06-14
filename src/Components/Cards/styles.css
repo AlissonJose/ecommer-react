@@ -14,6 +14,9 @@
     width: 593px;
     height: 345px;
     background-color: #F7F9FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .circulo1 {
@@ -32,37 +35,74 @@
     top: 20px;
 }
 
-.shoes1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 70px;
+.bloco1 img {
+    width: fit-content;
+    height: fit-content;
 }
 
-.shoes2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 380px;
+.bloco1 button {
+    font-family: 'Unna';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: auto;
+    right: auto;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 160px;
+    height: 55px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    transition: all .3s ease-in-out;
 }
 
-
-.shoes3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 270px;
-    right: 620px;
+.bloco1 button:hover {
+    transform-origin: right;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 34px #B3E141;
+    border-color: #FFF;
 }
 
-.shoes4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: -650px;
-    right: 10px;
+.bloco1 button:nth-last-child(1):hover {
+    box-shadow: 0px 4px 34px #DF272C;
+}
+
+.bloco1 .text {
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+}
+
+.bloco1 .text .first {
+    font-family: 'Unna';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #000000;
+}
+
+.bloco1 .text .second {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    color: #555555;
+}
+
+.bloco1 .text .second span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    color: #FF0000;
 }

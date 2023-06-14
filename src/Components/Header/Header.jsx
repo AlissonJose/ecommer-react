@@ -1,5 +1,5 @@
 import logo from '../../assets/logo-001.png'
-import "./styles.css"
+import styles from "./styles.css"
 import { AiOutlineSearch } from "react-icons/Ai"
 import { AiOutlineUser } from "react-icons/Ai"
 import { BsHandbag } from "react-icons/Bs"
@@ -28,7 +28,7 @@ export default function Header() {
 
             <div className="mainContents">
                 <div className="text">
-                    <p className="p1">Se junte nessa experiência</p>
+                    <p className="p1">Se junte nes  sa experiência</p>
                     <h1>CRIADO PARA AQUELES QUE DESEJAM SER LIVRES</h1>
                     <p className="p2">Na ponta dos pés, o caminhar e a liberdade é nosso compromisso. Pensamos alto, desafios são constantes, a cada passo uma nova aventura.</p>
                 </div>

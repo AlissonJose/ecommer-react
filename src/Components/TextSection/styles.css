@@ -100,17 +100,3 @@
 
 }
 
-.BuyHere2 {
-    width: 169px;
-    height: 64px;
-    border-radius: 5px;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    background-color: black;
-    color: white;
-    top: 120px;
-    position: relative;
-    margin-left: -270px;
-
-}

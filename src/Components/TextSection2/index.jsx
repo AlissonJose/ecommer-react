@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import styles from './styles.css'
+import styles from "./styles.css"
 
 function TextSection2() {
   return (
