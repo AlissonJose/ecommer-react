@@ -7,6 +7,8 @@ import Section2 from './Components/Section2'
 import TextSection from './Components/TextSection'
 import ShoesCard from './Components/ShoesCard'
 import TextSection2 from './Components/TextSection2'
+import Section3 from './Components/Section3'
+import TextSection3 from './Components/TextSection3'
 
 
 
@@ -22,6 +24,8 @@ function App() {
       <ShoesCard/>
       <TextSection2></TextSection2>
       <Section></Section>
+      <Section3 />
+      <TextSection3 />
 
     </>
   )

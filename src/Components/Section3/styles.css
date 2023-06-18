@@ -1,0 +1,9 @@
+.second-section {
+    background-image: url("../../assets/background-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 750px;
+    position: relative;
+}
