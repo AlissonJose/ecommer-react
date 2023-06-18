@@ -5,7 +5,10 @@ import styles from "./styles.css"
 
 function Section3() {
   return (
-    <div className="second-section"></div>
+    <div className="second-section">
+      <p className="email">Seu melhor e-mail</p>
+      <button className="desconto">10% de Desconto</button>
+    </div>
   )
 }
 

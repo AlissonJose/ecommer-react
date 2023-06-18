@@ -9,6 +9,10 @@ import ShoesCard from './Components/ShoesCard'
 import TextSection2 from './Components/TextSection2'
 import Section3 from './Components/Section3'
 import TextSection3 from './Components/TextSection3'
+import Section4 from './Components/Section4'
+import BlogCards from './Components/BlogCards'
+
+
 
 
 
@@ -26,6 +30,10 @@ function App() {
       <Section></Section>
       <Section3 />
       <TextSection3 />
+      <Section4 />
+      <BlogCards />
+      
+      
 
     </>
   )

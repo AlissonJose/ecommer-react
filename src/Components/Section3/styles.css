@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 .second-section {
     background-image: url("../../assets/background-2.png");
     background-repeat: no-repeat;
@@ -6,4 +8,27 @@
     height: 100vh;
     margin-top: 750px;
     position: relative;
+}
+
+.email{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    top: 420px;
+    left: 980px;
+}
+
+.desconto{
+    font-family: 'Inter', sans-serif;
+    width: 188px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 73px;
+    background-color: #ffff;
+    border: none;
+    position: relative;
+    top: 380px;
+    left: 1378px;
 }
