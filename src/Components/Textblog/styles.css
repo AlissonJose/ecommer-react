@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.title-1{
+    font-size: 12px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 230px
+}
+
+.subtitle-1{
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    justify-content: center;
+
+}
+
+.subtitle-2{
+    font-family: 'Inter', sans-serif;
+    font-size: 12;
+    font-weight: 300;
+    position: relative;
+    left: 350px;
+    bottom: 30px;
+}

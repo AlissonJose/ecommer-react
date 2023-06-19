@@ -11,6 +11,9 @@ import Section3 from './Components/Section3'
 import TextSection3 from './Components/TextSection3'
 import Section4 from './Components/Section4'
 import BlogCards from './Components/BlogCards'
+import Textblog from './Components/TextBlog'
+import Footer from './Components/Footer'
+
 
 
 
@@ -32,6 +35,9 @@ function App() {
       <TextSection3 />
       <Section4 />
       <BlogCards />
+      <Textblog />
+      <Footer />
+      
       
       
 
