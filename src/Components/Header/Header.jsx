@@ -10,19 +10,21 @@ export default function Header() {
         <div className="main-Header">
             <header>
                 <img src={logo} className='logo' alt="Logo da marca" />
-                <div className="Navbar">
-                    <span>Produtos</span>
-                    <span>Garantia</span>
-                    <span>Envio e Devolução</span>
-                    <span>Blog</span>
-                    <span>Sobre</span>
-                </div>
-                <div className="Icons">
-                    <AiOutlineSearch className="icon" />
-                    <AiOutlineUser className="icon" />
-                    <BsHandbag className="icon" />
-                    <AiOutlineHeart className="icon" />
-                    <img src={brasilImg} className="icon" />
+                <div className='header-wrapper'>
+                    <ul className="Navbar">
+                        <li>Produtos</li>
+                        <li>Garantia</li>
+                        <li>Envio e Devolução</li>
+                        <li>Blog</li>
+                        <li>Sobre</li>
+                    </ul>
+                    <div className="Icons">
+                        <AiOutlineSearch className="icon" />
+                        <AiOutlineUser className="icon" />
+                        <BsHandbag className="icon" />
+                        <AiOutlineHeart className="icon" />
+                        <img src={brasilImg} className="icon" />
+                    </div>
                 </div>
             </header>
 

@@ -1,6 +1,70 @@
 .container {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-shoes-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.text-shoes-card .title {
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-shoes-card .title::after {
+    content: "";
+    width: 54px;
+    height: 1px;
+    display: inline-block;
+    background-color: #000000;
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 5px);
+}
+
+.text-shoes-card .title::before {
+    content: "";
+    width: 54px;
+    height: 1px;
+    display: inline-block;
+    background-color: #000000;
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 5px);
+}
+
+.text-shoes-card .subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.text-shoes-card .description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    width: 33%;
+    
+}
+
+.bloco-wrapper {
     margin-top: 95px;
-    height: 1198px;
     height: 100%;
     padding: 0 121px;
     display: flex;

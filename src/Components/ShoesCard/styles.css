@@ -1,19 +1,32 @@
-.rectangule-shoes{
-    position: relative;
-    top: 200px;
-    margin: 30px;
-
+.container-shoes-card {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.rectangule-shoes2{
-    position: relative;
-    top: 200px;
-    margin: 30px;
-
+.container-shoes-card .text-shoes-card .title::after {
+    left: calc(100% + 20px);
 }
 
-.rectangule-shoes3{
-    position: relative;
-    top: 200px;
-    margin: 30px;
+.container-shoes-card .text-shoes-card .title::before {
+    right: calc(100% + 20px);
+}
+
+.container-shoes-card .text-shoes-card .subtitle {
+    margin-bottom: 20px;
+}
+
+.container-shoes-card .cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 63px;
+}
+
+.image {
+    width: 350px;
+    height: 350px;
 }

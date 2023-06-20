@@ -4,22 +4,15 @@
     background-image: url("../../assets/bg-001.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 75vh;
-}
-
-.icon {
-    color: #ffff;
-    width: 20px;
-    height: 20px;
-
 }
 
 header {
     display: flex;
     width: 100%;
     height: 80px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -27,19 +20,37 @@ header {
     margin-left: 41px;
     width: 39.59px;
     height: 41px;
-    margin-right: 500px;
 }
 
-.Navbar span {
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Navbar {
+    margin-right: 3%;
+    width: 473px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Navbar li {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    user-select: none;
     font-size: 14px;
     font-family: 'Inter', sans-serif;
     color: #ffff;
 }
 
-.Navbar {
-    width: 473px;
-    display: flex;
-    justify-content: space-between;
+.Navbar li:hover {
+    border-bottom: solid 1px #ffffff;
+    font-weight: bold;
 }
 
 .Icons {
@@ -49,9 +60,11 @@ header {
     margin-right: 43px;
 }
 
-.Navbar span:hover {
-    border-bottom: solid 1px #ffffff;
-    font-weight: bold;
+.icon {
+    color: #ffff;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 
 .mainContents {

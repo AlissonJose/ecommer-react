@@ -4,7 +4,7 @@
     background-image: url("../../assets/rectangule 1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 75vh;
     margin-top: 114px;
     position: relative;
@@ -64,6 +64,7 @@
     font-size: 12px;
     line-height: 15px;
     color: #000000;
+    width: 80%;
 }
 
 .main-section .text .description span {

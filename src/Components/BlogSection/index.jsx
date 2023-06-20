@@ -7,12 +7,10 @@ import Foto03 from "../../assets/foto-03.png"
 
 function BlogCards() {
     return (
-        <div className="card-1">
-            <img src={Foto01} alt="card 01" />
-            <img src={Foto02} alt="card 02" />
-            <img src={Foto03} alt="card 03" />
-
-
+        <div className="card">
+            <img src={Foto01} alt="card" />
+            <img src={Foto02} alt="card" />
+            <img src={Foto03} alt="card" />
         </div>
     )
 }
