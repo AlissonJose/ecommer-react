@@ -3,7 +3,7 @@ import logo from '../../assets/logo-001.png'
 import styles from "./styles.css"
 import { AiOutlineSearch } from "react-icons/ai"
 import { AiOutlineUser } from "react-icons/ai"
-import { BsHandbag } from "react-icons/Bs"
+import { BsHandbag } from "react-icons/bs"
 import { AiOutlineHeart } from "react-icons/ai"
 import brasilImg from '../../assets/Brazil.png'
 export default function Header() {
