@@ -10,6 +10,19 @@
     position: relative;
 }
 
+.second-section {
+    background-image: url("../../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    
+    top: 1457px;
+    
+    position: relative;
+
+}
+
 .main-section .text {
     position: absolute;
     top: 62px;
@@ -87,3 +100,4 @@
     color: white;
     margin-top: 48px;
 }
+
