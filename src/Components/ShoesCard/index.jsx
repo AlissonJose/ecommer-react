@@ -19,8 +19,9 @@ export default function ShoesCard() {
       <div className="cards-wrapper">
         <div className="img-wrapper"><img className='image' src={rectanguleshoes} /></div>
         <img className='image' src={rectanguleshoes2} />
-        <img className='image' src={rectanguleshoes3} />
-      </div>
+        <img className='image' src={rectanguleshoes3} />      
+                           
+            </div>
     </section>
   )
 }

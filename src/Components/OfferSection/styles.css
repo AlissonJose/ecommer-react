@@ -1,103 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 .main-section {
-    background-image: url("../../assets/rectangule 1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 75vh;
-    margin-top: 114px;
-    position: relative;
+  background-image: url("../../assets/rectangule 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+  margin-top: 114px;
+  position: relative;
 }
 
 .second-section {
-    background-image: url("../../assets/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 75vh;
-    
-    top: 1457px;
-    
-    position: relative;
+  background-image: url("../../assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+
+  top: 1457px;
+
+  position: relative;
+}
+
+
+.title-second{
+position: absolute;
+top: 280px;
+left: 19%;
+color: #000;
+font-size: 14px;
+font-family: Inter;
+font-weight: 700;
+}
+
+
+
+
+.description-second{
+position: absolute;
+color: #FFF;
+font-size: 25px;
+font-family: Inter;
+font-weight: 600;
+top: 300px;
+width: 267px;
+left: 15%;
 
 }
 
-.main-section .text {
+
+.third-section{
     position: absolute;
-    top: 62px;
-    left: 11.7%;
-    width: 350px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: bold;
+    left: 15%;
+    top: 360px;
+    color: #000;
     font-size: 12px;
-    line-height: 15px;
-    color: #000000;
+    font-family: Inter;
+    font-weight: 500;
 }
+
+.email-subscribe{
+    position: absolute;
+    top: 480px;
+    left: 20%;
+    width: 614px;
+    height: 73px;
+    flex-shrink: 0;
+    background: none;
+    border: 1px solid #000;
+}
+.main-section .text {
+  position: absolute;
+  top: 62px;
+  left: 11.7%;
+  width: 350px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
 
 .main-section .text .title {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 10px;
-    margin-right: 60px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+  margin-right: 60px;
 }
 
-.main-section .text .title::before{
-    content: "";
-    height: 1px;
-    width: 60px;
-    background-color: rgb(0, 0, 0);
-    display: block;
-    text-align: center;
-    position: absolute;
-    top: 8px;
-    right: 290px;
+.main-section .text .title::before {
+  content: "";
+  height: 1px;
+  width: 60px;
+  background-color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  position: absolute;
+  top: 8px;
+  right: 290px;
 }
 
 .main-section .text .offer {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
-    color: #000000;
-    margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 10px;
 }
 
 .main-section .text .description {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    color: #000000;
-    width: 80%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  width: 80%;
 }
 
 .main-section .text .description span {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 15px;
-    color: #FF0000;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ff0000;
 }
 
 .BuyHere2 {
-    width: 169px;
-    height: 64px;
-    border-radius: 5px;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    background-color: black;
-    color: white;
-    margin-top: 48px;
+  width: 169px;
+  height: 64px;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  margin-top: 48px;
 }
-

@@ -17,6 +17,13 @@ function Section2() {
             </div>
 
             <div className="second-section">
+                <div className='text-second'>
+                    <p className='title-second'>OFERTAS</p>
+                    <p className='description-second'>10% de Desconto em sua primeira compra</p>
+                    <p className='third-section'>Assine e receba atualizações, promoções e dicas</p>
+                    <button className="email-subscribe">Seu melhor e-mail</button>
+                    
+                </div>
                 
             </div>
             
