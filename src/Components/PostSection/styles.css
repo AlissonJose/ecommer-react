@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.titleSection{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 12px;
+}
+.subtitleSection{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    
+}
+.descriptionSection{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    position: absolute;
+    
+}
+
+.subDescriptionSection{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: 600;
+}
